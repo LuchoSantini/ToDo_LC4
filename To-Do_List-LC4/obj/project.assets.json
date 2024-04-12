@@ -1730,24 +1730,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucho\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\lucho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucho\\OneDrive\\Escritorio\\Tarea 1 LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
+      "projectUniqueName": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
       "projectName": "To-Do_List-LC4",
-      "projectPath": "C:\\Users\\lucho\\OneDrive\\Escritorio\\Tarea 1 LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
+      "projectPath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
       "packagesPath": "C:\\Users\\lucho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucho\\OneDrive\\Escritorio\\Tarea 1 LC4\\To-Do_List-LC4\\obj\\",
+      "outputPath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\lucho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1755,7 +1750,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1812,7 +1806,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
