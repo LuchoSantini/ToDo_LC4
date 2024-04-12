@@ -33,5 +33,28 @@ namespace To_Do_List_LC4.Services
             }
             return false;
         }
+
+        public bool EditLists(ToDoItemToEditDto toDoItemToEditDto)
+        {
+            ToDoItem listsToEdit = _context.ToDoItems.FirstOrDefault(p => p.Id == toDoItemToEditDto.Id);
+
+            if (listsToEdit != null)
+            {
+                listsToEdit.Id = listsToEdit.Id;
+                listsToEdit.Title = toDoItemToEditDto.Title;
+                listsToEdit.Description = toDoItemToEditDto.Description;
+
+                _context.Update(listsToEdit);
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+        }
+
+        public List<ToDoItem> GetAllLists()
+        {
+            var lists = _context.ToDoItems.ToList();
+            return lists;
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hKd58iU179K/PEsXQkbaTM5yH/UMRbFM6rKdO5MDKcFqzwMbIcAB/1gqYlpz6SkG2VyaSDQPa/ENgFShORI2A==",
+  "dgSpecHash": "8abqaS/2ey5jOj7K9D/GSDiYFB7mrFKGXJf0JAMhvhiAIXEWDyhLtheiTM6Udkz2ddPFsiFxzl7jsbBnrVQ5/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
+  "projectFilePath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea LAB IV\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucho\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucho\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.28\\microsoft.data.sqlite.core.6.0.28.nupkg.sha512",

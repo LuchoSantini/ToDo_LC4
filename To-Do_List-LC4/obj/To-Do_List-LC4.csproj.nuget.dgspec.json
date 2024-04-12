@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj": {}
+    "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea LAB IV\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj": {
+    "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea LAB IV\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
+        "projectUniqueName": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea LAB IV\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
         "projectName": "To-Do_List-LC4",
-        "projectPath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
+        "projectPath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea LAB IV\\ToDo_LC4\\To-Do_List-LC4\\To-Do_List-LC4.csproj",
         "packagesPath": "C:\\Users\\lucho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea 1 LC4\\ToDo_LC4\\To-Do_List-LC4\\obj\\",
+        "outputPath": "C:\\Users\\lucho\\Desktop\\LAB IV\\Tarea LAB IV\\ToDo_LC4\\To-Do_List-LC4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucho\\AppData\\Roaming\\NuGet\\NuGet.Config",

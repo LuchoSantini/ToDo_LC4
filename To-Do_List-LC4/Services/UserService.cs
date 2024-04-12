@@ -32,5 +32,29 @@ namespace To_Do_List_LC4.Services
             }
             return false;
         }
+
+        public bool EditUsers(UserToEditDto userToEditDto)
+        {
+            User userToEdit = _context.Users.FirstOrDefault(p => p.Id == userToEditDto.Id);
+
+            if (userToEdit != null)
+            {
+                userToEdit.Id = userToEdit.Id;
+                userToEdit.Name = userToEditDto.Name;
+                userToEdit.Email = userToEditDto.Email;
+                userToEdit.Address = userToEditDto.Address;
+
+                _context.Update(userToEdit);
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
+        }
+
+        public List<User> GetAllUsers()
+        {
+            var users = _context.Users.ToList();
+            return users;
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using To_Do_List_LC4.Data.Dtos;
 using To_Do_List_LC4.Interfaces;
+using To_Do_List_LC4.Services;
 
 namespace To_Do_List_LC4.Controllers
 {
@@ -12,7 +13,7 @@ namespace To_Do_List_LC4.Controllers
             _userService = userService;
         }
 
-        [HttpPost("Agrear Usuario")]
+        [HttpPost("users/createUser")]
         public IActionResult CreateUser([FromBody] UserDto userDto)
         {
             if (_userService.CreateUser(userDto))
@@ -22,5 +23,21 @@ namespace To_Do_List_LC4.Controllers
             return BadRequest("Ya existe este usuario");
         }
 
+        [HttpPut("users/editUser")]
+        public IActionResult EditUsers([FromBody] UserToEditDto userToEditDto)
+        {
+            if (_userService.EditUsers(userToEditDto))
+            {
+                return Ok($"Usuario editado correctamente");
+            }
+            return BadRequest("No existe este un usuario con este ID");
+        }
+
+        [HttpGet("users/getAllUsers")]
+        public IActionResult GetAllLists()
+        {
+            var users = _userService.GetAllUsers();
+            return Ok(users);
+        }
     }
 }
